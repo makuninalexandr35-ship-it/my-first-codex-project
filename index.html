@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="LUMÉ — авторские торты ручной работы для ваших особенных событий.">
+  <title>LUMÉ — авторская кондитерская</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&family=Prata&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="#home" aria-label="LUMÉ — на главную">LUMÉ<span>atelier</span></a>
+    <button class="menu-button" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="main-menu">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" id="main-menu" aria-label="Основная навигация">
+      <a href="#cakes">Торты</a>
+      <a href="#about">О нас</a>
+      <a href="#benefits">Преимущества</a>
+      <a class="nav-order" href="#order">Заказать</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Кондитерское ателье · Москва</p>
+        <h1>Вкус, который<br><em>становится</em> воспоминанием</h1>
+        <p class="hero-text">Создаём авторские торты вручную — с деликатным вкусом, безупречной эстетикой и вниманием к вашей истории.</p>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#order">Заказать торт <span>↗</span></a>
+          <a class="text-link" href="#cakes">Смотреть коллекцию <span>↓</span></a>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Авторский праздничный торт">
+        <div class="arch"></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✦</div>
+        <div class="cake">
+          <div class="berry berry-one"></div><div class="berry berry-two"></div><div class="berry berry-three"></div>
+          <div class="cake-top"></div><div class="cake-base"></div><div class="plate"></div>
+        </div>
+        <p class="art-note">signature collection<br><span>№ 01 / 2026</span></p>
+      </div>
+      <p class="side-note">СЛАДКИЕ МОМЕНТЫ · РУЧНАЯ РАБОТА</p>
+    </section>
+
+    <section class="ticker" aria-label="Особенности кондитерской">
+      <div>Натуральные ингредиенты <span>✦</span> Авторские сочетания <span>✦</span> Ручная работа <span>✦</span> Доставка по Москве <span>✦</span></div>
+    </section>
+
+    <section class="section cakes" id="cakes">
+      <div class="section-heading reveal">
+        <div><p class="eyebrow">Наша коллекция</p><h2>Торты с характером</h2></div>
+        <p>Каждый вкус — маленькая история, собранная из тонких текстур, сезонных ягод и честных ингредиентов.</p>
+      </div>
+      <div class="cake-grid">
+        <article class="cake-card reveal">
+          <div class="card-visual visual-rose"><span class="mini-cake cake-pink"></span><span class="card-number">01</span></div>
+          <div class="card-copy"><div><h3>Розовый бархат</h3><p>Малина · роза · ваниль</p></div><strong>от 3 900 ₽</strong></div>
+        </article>
+        <article class="cake-card reveal">
+          <div class="card-visual visual-choco"><span class="mini-cake cake-brown"></span><span class="card-number">02</span></div>
+          <div class="card-copy"><div><h3>Тёмный трюфель</h3><p>Шоколад · вишня · тонка</p></div><strong>от 4 200 ₽</strong></div>
+        </article>
+        <article class="cake-card reveal">
+          <div class="card-visual visual-lemon"><span class="mini-cake cake-cream"></span><span class="card-number">03</span></div>
+          <div class="card-copy"><div><h3>Лимонный сад</h3><p>Лимон · фисташка · безе</p></div><strong>от 3 800 ₽</strong></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-art reveal"><span>L</span><p>est. 2018</p></div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">О нас</p>
+        <h2>Красота в каждой<br>детали. Вкус — <em>в основе.</em></h2>
+        <p>Мы начинали с маленькой домашней кухни и большой любви к десертам. Сегодня LUMÉ — это команда кондитеров, декораторов и мечтателей, которые верят: идеальный торт должен быть не только красивым.</p>
+        <p>Мы не используем готовые смеси, маргарин и искусственные ароматизаторы. Только понятный состав, свежие продукты и много ручной работы.</p>
+        <a class="text-link" href="#order">Обсудить ваш торт <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="section benefits" id="benefits">
+      <div class="section-heading reveal"><div><p class="eyebrow">Почему LUMÉ</p><h2>Забота на каждом этапе</h2></div></div>
+      <div class="benefit-grid">
+        <article class="reveal"><span>01</span><h3>Только свежее</h3><p>Готовим торт специально к вашей дате из натуральных и тщательно отобранных продуктов.</p></article>
+        <article class="reveal"><span>02</span><h3>Ваш дизайн</h3><p>Разрабатываем декор под настроение события — от эскиза до последнего штриха.</p></article>
+        <article class="reveal"><span>03</span><h3>Точно в срок</h3><p>Бережно упакуем и доставим заказ в удобный для вас интервал по Москве и области.</p></article>
+        <article class="reveal"><span>04</span><h3>Всегда на связи</h3><p>Личный кондитер уточнит детали и расскажет о каждом этапе создания десерта.</p></article>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="order-intro reveal">
+        <p class="eyebrow">Создадим вместе</p>
+        <h2>Расскажите о торте,<br>который вы <em>представляете</em></h2>
+        <p>Оставьте заявку — мы свяжемся с вами в течение рабочего дня, уточним детали и предложим варианты.</p>
+        <div class="order-contact"><span>Или напишите нам</span><a href="mailto:hello@lume-cake.ru">hello@lume-cake.ru</a></div>
+      </div>
+      <form class="order-form reveal" novalidate>
+        <label>Ваше имя<input type="text" name="name" placeholder="Анна" autocomplete="name" required></label>
+        <label>Телефон<input type="tel" name="phone" placeholder="+7 999 000-00-00" autocomplete="tel" required></label>
+        <div class="form-row">
+          <label>Дата события<input type="date" name="date" required></label>
+          <label>Количество гостей<select name="guests" required><option value="">Выберите</option><option>до 10</option><option>10–20</option><option>20–40</option><option>более 40</option></select></label>
+        </div>
+        <label>Пожелания<textarea name="message" rows="3" placeholder="Расскажите о начинке, декоре и поводе..."></textarea></label>
+        <label class="consent"><input type="checkbox" name="consent" required><span>Я согласен(а) на обработку персональных данных</span></label>
+        <button class="button button-light" type="submit">Отправить заявку <span>↗</span></button>
+        <p class="form-status" role="status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo logo-light" href="#home">LUMÉ<span>atelier</span></a>
+    <p>Авторская кондитерская в Москве</p>
+    <div><a href="#cakes">Торты</a><a href="#about">О нас</a><a href="#order">Контакты</a></div>
+    <p>© <span id="year">2026</span> LUMÉ</p>
+  </footer>
+</body>
+</html>
